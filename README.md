@@ -25,13 +25,13 @@ A portfolio showcase page with a navigation bar for easy navigation within the p
 - A contact area where visitors can contact me directly via phone, email, WhatsApp, or access my LinkedIn and GitHub profiles.
 - A contact form for submitting inquiries.
 
-# Landing Pages: 1, 2, 3, 8
+## Landing Pages: 1, 2, 3, 8
 Landing pages presenting single products. These pages demonstrate responsive design using CSS for styling.
 
-# Landing Pages: 4, 5, 9
+## Landing Pages: 4, 5, 9
 Landing pages that use custom Sass styling for efficient and organized styling.
 
-# Landing Pages 6, 7
+## Landing Pages 6, 7
 Landing pages that utilize Bootstrap's grid system for layout and Bootstrap components for forms and buttons.
 
 # JavaScript Projects:
