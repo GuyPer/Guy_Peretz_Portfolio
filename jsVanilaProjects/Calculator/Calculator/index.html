@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div id="calculator">
+        <input type="text" id="monitor">
+        <div id="row1" class="rows">
+            <button id="onBtn" class="buttons" onclick="writeOnMonitor(this.innerText)">ON</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">AC</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">C</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">+</button>
+        </div>
+        <div id="row2" class="rows">
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">7</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">8</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">9</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">-</button>
+        </div>
+        <div id="row3" class="rows">
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">4</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">5</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">6</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">X</button>
+        </div>
+        <div id="row4" class="rows">
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">1</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">2</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">3</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">/</button>
+        </div>
+        <div id="row5" class="rows">
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">0</button>
+            <button class="buttons" onclick="writeOnMonitor(this.innerText)">.</button>
+            <button id="equalButton" class="buttons" onclick="writeOnMonitor(this.innerText)">=</button>
+        </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
